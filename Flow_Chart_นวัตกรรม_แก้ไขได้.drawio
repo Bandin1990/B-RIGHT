@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2026-08-24T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="flow-innovation" name="Flow Chart นวัตกรรม">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="FLOW CHART  |  กระบวนการทำงานของนวัตกรรม" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#18324A;fontFamily=Tahoma;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="650" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="การเพิ่มประสิทธิภาพกระบวนการปล่อยตัวชั่วคราวในชั้นสอบสวน" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#667785;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="52" y="68" width="620" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="target" value="เป้าหมาย: ภายใน 48 ชั่วโมง" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1F5;strokeColor=#B8C8D2;fontColor=#18324A;fontFamily=Tahoma;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="36" width="280" height="42" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s1" value="1  รับตัวผู้ต้องหา&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;แจ้งสิทธิตามขั้นตอนปกติ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0EEE8;strokeColor=#C9C3B5;fontColor=#243746;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="125" width="450" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="s2" value="2  ดึงข้อมูลจากระบบภาครัฐ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ทรัพย์สิน  •  ประวัติ  •  สถานะคดี&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FA;strokeColor=#4B83B5;fontColor=#245A8A;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="220" width="450" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="s3" value="3  ประเมินความเสี่ยงมาตรฐาน&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ดำเนินการทุกกรณี ไม่ต้องรอคำร้อง&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEAFE;strokeColor=#7566C5;fontColor=#4F439A;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="315" width="450" height="66" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ghead" value="สีเขียว  |  ความเสี่ยงต่ำ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ทางเดินเร่งรัด&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDF4E9;strokeColor=#2C9A6B;fontColor=#146B4A;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="55" y="450" width="285" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="yhead" value="สีเหลือง  |  ความเสี่ยงปานกลาง&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ทางเดินมีหลักประกัน&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#D99A16;fontColor=#8A5A00;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="450" width="285" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="rhead" value="สีแดง  |  ความเสี่ยงสูง&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ทางเดินกำกับเข้ม&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE0E0;strokeColor=#C94B4B;fontColor=#8E2727;fontFamily=Tahoma;fontSize=17;fontStyle=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="955" y="450" width="285" height="62" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="g4" value="4  ปล่อยตัวทันที&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ไม่ต้องเรียกหลักประกัน&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDF4E9;strokeColor=#2C9A6B;fontColor=#146B4A;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="55" y="550" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="y4" value="4  คำนวณหลักประกัน&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ต้องใช้เท่าใด  •  ขาดเท่าใด&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#D99A16;fontColor=#8A5A00;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="385" y="550" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="y5" value="5  แจ้งผลเป็นหนังสือ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ให้ลงชื่อรับทราบ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C9;strokeColor=#D99A16;fontColor=#8A5A00;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="385" y="635" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="y6" value="6  หากหลักประกันไม่พอ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;เชื่อมกลไกช่วยเหลือ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6DF;strokeColor=#D99A16;fontColor=#8A5A00;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="385" y="720" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="r4" value="4  คำนวณ + ตรวจเหตุจำเป็น&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;หลักประกันและความเสี่ยง&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE0E0;strokeColor=#C94B4B;fontColor=#8E2727;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="955" y="550" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="r5" value="5  แจ้งผลเป็นหนังสือ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;ให้ลงชื่อรับทราบ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE0E0;strokeColor=#C94B4B;fontColor=#8E2727;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="955" y="635" width="285" height="62" as="geometry"/></mxCell>
+        <mxCell id="r6" value="6  เชื่อมกลไกช่วยเหลือ&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;กองทุนยุติธรรม / บุคคล / ตำแหน่ง&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE0E0;strokeColor=#C94B4B;fontColor=#8E2727;fontFamily=Tahoma;fontSize=16;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="955" y="720" width="285" height="62" as="geometry"/></mxCell>
+
+        <mxCell id="out" value="ปล่อยตัวชั่วคราว&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;ภายในกรอบเวลา 48 ชั่วโมง&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F5F0;strokeColor=#2C9A6B;fontColor=#146B4A;fontFamily=Tahoma;fontSize=19;fontStyle=1;arcSize=12;" vertex="1" parent="1"><mxGeometry x="565" y="850" width="470" height="70" as="geometry"/></mxCell>
+        <mxCell id="note" value="เกณฑ์แยกทางเดิน: ระดับความเสี่ยงที่ประเมินได้ตามเหตุที่กฎหมายกำหนด ไม่ใช่ฐานะทางเศรษฐกิจ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#667785;fontFamily=Tahoma;fontSize=11;" vertex="1" parent="1"><mxGeometry x="55" y="950" width="900" height="24" as="geometry"/></mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#91A0AA;strokeWidth=2;" edge="1" parent="1" source="s1" target="s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#91A0AA;strokeWidth=2;" edge="1" parent="1" source="s2" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#91A0AA;strokeWidth=2;" edge="1" parent="1" source="s3" target="ghead"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ey0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#91A0AA;strokeWidth=2;" edge="1" parent="1" source="s3" target="yhead"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="er0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#91A0AA;strokeWidth=2;" edge="1" parent="1" source="s3" target="rhead"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2C9A6B;strokeWidth=2;" edge="1" parent="1" source="ghead" target="g4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ey1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#D99A16;strokeWidth=2;" edge="1" parent="1" source="yhead" target="y4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ey2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#D99A16;strokeWidth=2;" edge="1" parent="1" source="y4" target="y5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ey3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#D99A16;strokeWidth=2;" edge="1" parent="1" source="y5" target="y6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#C94B4B;strokeWidth=2;" edge="1" parent="1" source="rhead" target="r4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#C94B4B;strokeWidth=2;" edge="1" parent="1" source="r4" target="r5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="er3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#C94B4B;strokeWidth=2;" edge="1" parent="1" source="r5" target="r6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#2C9A6B;strokeWidth=2;" edge="1" parent="1" source="g4" target="out"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ey4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#D99A16;strokeWidth=2;" edge="1" parent="1" source="y6" target="out"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="er4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#C94B4B;strokeWidth=2;" edge="1" parent="1" source="r6" target="out"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
