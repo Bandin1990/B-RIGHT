@@ -3,22 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>B-RIGHT Prototype</title>
+  <title>B-RIGHT · Infographic & MVP</title>
   <style>
     @font-face{font-family:Bai;src:url('fonts/BaiJamjuree-Regular.ttf')}@font-face{font-family:Bai;src:url('fonts/BaiJamjuree-Bold.ttf');font-weight:700}
-    body{margin:0;background:#f4f7f9;color:#243746;font-family:Bai,system-ui,sans-serif;min-height:100vh;display:grid;place-items:center}.box{max-width:680px;margin:24px;padding:32px;background:#fff;border:1px solid #d6e0e7;border-radius:20px;box-shadow:0 12px 30px #17324a12}h1{margin:0;color:#17324a;font-size:38px}p{color:#647887;line-height:1.55}.links{display:grid;gap:12px;margin-top:22px}a{display:block;padding:15px 17px;border-radius:12px;text-decoration:none;color:#17324a;background:#e8f2fb;border:1px solid #4d88ba;font-weight:700}.secondary{background:#f8fafb;border-color:#d6e0e7;font-weight:400}.note{font-size:12px;background:#f0f3f5;padding:12px;border-radius:10px;margin-top:18px}
+    :root{--navy:#102a43;--teal:#0b7285;--ink:#243b53;--muted:#627d98;--line:#d9e2ec}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#edf5f8,#f8fafc);color:var(--ink);font-family:Bai,system-ui,sans-serif}.shell{width:min(1500px,100%);margin:auto;padding:24px}.top{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:18px;padding:18px 22px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 35px #102a4312}.brand{display:flex;align-items:center;gap:13px}.logo{display:grid;place-items:center;width:58px;height:45px;border-radius:12px;background:linear-gradient(135deg,var(--navy),var(--teal));color:#fff;font-weight:700}.brand h1{margin:0;color:var(--navy);font-size:25px}.brand p{margin:3px 0 0;color:var(--muted);font-size:13px}.notice{padding:8px 12px;border-radius:99px;background:#fff5d9;border:1px solid #e4bf61;color:#815500;font-size:12px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.tab{border:1px solid #c2d4df;background:#fff;color:var(--navy);padding:11px 17px;border-radius:10px;cursor:pointer;font:inherit;font-weight:700}.tab.active{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:0 7px 16px #102a4330}.panel{display:none;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 14px 35px #102a4312}.panel.active{display:block}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line)}.panel-head h2{margin:0;color:var(--navy);font-size:18px}.panel-head a{color:var(--teal);font-size:12px;text-decoration:none}.frame{display:block;width:100%;height:calc(100vh - 190px);min-height:650px;border:0;background:#f7fafc}.docs{padding:24px}.docs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.doc-link{display:block;padding:16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--navy);background:#f7fafc}.doc-link strong{display:block;font-size:16px}.doc-link span{display:block;margin-top:4px;color:var(--muted);font-size:12px}@media(max-width:700px){.shell{padding:12px}.top{align-items:flex-start;flex-direction:column}.brand h1{font-size:21px}.frame{height:calc(100vh - 235px);min-height:600px}.docs-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-  <main class="box">
-    <h1>B-RIGHT</h1>
-    <p>ต้นแบบระบบช่วยประเมินและจัดทำความเห็นการปล่อยชั่วคราวในชั้นสอบสวน</p>
-    <div class="links">
-      <a href="B-RIGHT_MVP_Prototype.html">เปิด MVP Prototype</a>
-      <a class="secondary" href="B-RIGHT_Interactive_Infographic.html">ดู Interactive Infographic</a>
-      <a class="secondary" href="B-RIGHT_System_Specification.md">อ่าน System Specification</a>
-    </div>
-    <div class="note">MVP ใช้ข้อมูลคดี/ฐานข้อมูลภายนอกจำลอง และมีจุดเชื่อม Gemini AI จริงผ่าน backend เมื่อเปิดเซิร์ฟเวอร์ · ไม่ใช่ระบบอนุมัติทางคดี</div>
+  <main class="shell">
+    <header class="top"><div class="brand"><div class="logo">B-RIGHT</div><div><h1>ระบบช่วยประเมินการปล่อยชั่วคราว</h1><p>อินโฟกราฟิก · ระบบ MVP · เอกสารประกอบการพัฒนา</p></div></div><span class="notice">Prototype · Human decision required</span></header>
+    <nav class="tabs" aria-label="เมนูหลัก"><button class="tab active" data-tab="infographic">อินโฟฉบับเดิม</button><button class="tab" data-tab="mvp">ระบบ B-RIGHT MVP</button><button class="tab" data-tab="docs">เอกสารและสเปก</button></nav>
+    <section class="panel active" id="panel-infographic"><div class="panel-head"><h2>Interactive Infographic</h2><a href="B-RIGHT_Interactive_Infographic.html" target="_blank">เปิดเต็มหน้า ↗</a></div><iframe class="frame" src="B-RIGHT_Interactive_Infographic.html" title="B-RIGHT Interactive Infographic"></iframe></section>
+    <section class="panel" id="panel-mvp"><div class="panel-head"><h2>B-RIGHT MVP Prototype</h2><a href="B-RIGHT_MVP_Prototype.html" target="_blank">เปิดเต็มหน้า ↗</a></div><iframe class="frame" src="B-RIGHT_MVP_Prototype.html" title="B-RIGHT MVP Prototype"></iframe></section>
+    <section class="panel" id="panel-docs"><div class="docs"><h2>เอกสารและสเปกโครงการ</h2><div class="docs-grid"><a class="doc-link" href="B-RIGHT_System_Specification.md" target="_blank"><strong>System Specification</strong><span>ข้อกำหนดระบบและ workflow</span></a><a class="doc-link" href="B-RIGHT_Production_Roadmap.md" target="_blank"><strong>Production Roadmap</strong><span>แผนเชื่อมต่อฐานข้อมูลและ AI</span></a><a class="doc-link" href="B-RIGHT_AI_SETUP.md" target="_blank"><strong>AI Setup</strong><span>วิธีเชื่อม Gemini AI จริง</span></a><a class="doc-link" href="B-RIGHT_Legal_Rules.md" target="_blank"><strong>Legal Rules</strong><span>ทะเบียนหลักเกณฑ์คำนวณวงเงิน</span></a><a class="doc-link" href="B-RIGHT_แบบประเมินความเสี่ยง_ชั้นสอบสวน.docx" target="_blank"><strong>แบบประเมินความเสี่ยง DOCX</strong><span>แบบฟอร์มสำหรับชั้นสอบสวน</span></a><a class="doc-link" href="B-RIGHT_One_Page_Summary.pdf" target="_blank"><strong>One Page Summary</strong><span>สรุปโครงการสำหรับนำเสนอ</span></a></div></div></section>
   </main>
+  <script>document.querySelectorAll('[data-tab]').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===tab));document.querySelectorAll('.panel').forEach(x=>x.classList.toggle('active',x.id==='panel-'+tab.dataset.tab))}));</script>
 </body>
 </html>
